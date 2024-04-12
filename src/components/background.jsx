@@ -8,11 +8,11 @@ const Background = ({ handleFormData, showSuccess, handleSuccessClick }) => {
   return (
     <>
       <main className="background flex md:flex-row md:gap-0 gap-24 items-center flex-col">
-        <section className="color md:w-1/4 w-[100%] ">
+        <section className="color md:w-1/4 w-[100%]  ">
           <img
             src="./images/bg-main-desktop.png"
             alt="desktoop-bg"
-            className=" h-screen w-[350px] md:block hidden"
+            className="h-screen w-[350px] md:block hidden"
           />
           <img
             src="./images/bg-main-mobile.png"
