@@ -2,7 +2,7 @@ import React from "react";
 
 const Cards = ({ cardname, cardnumber, month, year, cvc }) => {
   return (
-    <main className="cards z-10  absolute mt-12 md:ml-16 sm:ml-[200px] ml-10 top-0">
+    <main className="cards z-10  absolute md:mt-24 mt-16 md:ml-16 sm:ml-[200px] ml-10 top-0">
       <div className="cardimg gap-2 absolute  flex md:flex-col flex-col-reverse md:gap-6">
         <div className="md:w-[350px] z-10 relative w-[280px] md:h-[200px] h-[150px]">
           <img src="./images/bg-card-front.png" alt="Front" />

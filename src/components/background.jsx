@@ -7,7 +7,7 @@ const Background = ({ handleFormData, showSuccess, handleSuccessClick }) => {
 
   return (
     <>
-      <main className="background flex md:flex-row md:gap-0 gap-24 items-center flex-col">
+      <main className="background h-[100vh] flex md:flex-row md:gap-0 gap-24 items-center flex-col">
         <section className="color md:w-1/4 w-[100%]  ">
           <img
             src="./images/bg-main-desktop.png"
